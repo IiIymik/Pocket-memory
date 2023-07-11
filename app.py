@@ -92,6 +92,7 @@ async def get_user(request):
 @app.get('/', response_class=HTMLResponse)
 async def home(request: Request):
     main_scrap()
+
     if (request._cookies.get("access_token")):
         user = await get_user(request)
         return templates.TemplateResponse("index.html", 
