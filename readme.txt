@@ -1,5 +1,5 @@
 Pocket memory
-v.0.0.1
+v.0.0.2
 In App you can find fresh news, sport news, currency and actual wwhether
 In home page shows litle presentation, four columns whith different data and short team description
 Yuo can see bigger presentation if you need, just press the button Presentation
